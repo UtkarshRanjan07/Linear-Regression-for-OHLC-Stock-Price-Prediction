@@ -3,6 +3,6 @@ Welcome to the Machine Learning for Trading repository! This project aims to pro
 
 
 
-# Devloper Contact
+# Developer Details
 Name: Kamal Kumar Chanchal
 Linkedin : linkedin.com/in/kamalchanchal
