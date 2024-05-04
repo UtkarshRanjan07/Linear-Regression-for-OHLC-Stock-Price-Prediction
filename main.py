@@ -19,17 +19,8 @@ def project_2():
     """ Get Stocks Data -- Reliance """
     _t = feed.FinancialData()
     df_stocks_data =_t.get_historical_data()
-
-
-    m2 = OrdinaryLeastSquares.Q_OLS(df_stocks_data)
-
-
-
     print(F"number of Record Found is  : {len(df_stocks_data)}")
-
-
-
-
+    m2 = OrdinaryLeastSquares.Q_OLS(df_stocks_data)
 
 
 
@@ -38,8 +29,7 @@ if __name__ == '__main__':
 
     """ Linear Regression to On Mean Price """
     # myproject()
-
-    """ model 2 :  """
+    """ model 2 : get best fit Line (Reliance Stocks)  """
     project_2()
 
 
