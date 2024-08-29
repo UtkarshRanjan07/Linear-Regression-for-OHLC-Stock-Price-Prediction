@@ -1,17 +1,9 @@
-# This is a sample Python script.
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import LinearRegression as P
 import OrdinaryLeastSquares
-# import Ml2 as t
+
 
 import getHistoricalData as feed
-
-
-# def myproject():
-#     model = P.QuantML ()
-#     model.Engine()
 
 
 def project_2():
@@ -24,11 +16,9 @@ def project_2():
 
 
 
-# # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
     """ Linear Regression to On Mean Price """
-    # myproject()
     """ model 2 : get best fit Line (Reliance Stocks)  """
     project_2()
 

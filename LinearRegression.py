@@ -32,7 +32,7 @@ class QuantML:
             self.__df_hlc_data.set_index("Date")
             print(self.__df_hlc_data.describe())
         except Exception as e:
-            print("Error Ocurred in Preperation of Data : {e}")
+            print("Error Ocurred in Prepration of Data : {e}")
 
 
     def Engine( self ):

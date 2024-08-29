@@ -1,9 +1,4 @@
 
-"""  Developer Details
-Name  : Kamal Kumar Chanchal
-
-"""
-
 
 #Step 1: Import necessary libraries
 from sklearn.linear_model import LinearRegression
